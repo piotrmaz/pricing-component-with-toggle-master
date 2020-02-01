@@ -268,18 +268,47 @@ color: #566573;
 @media screen and (max-width: 991px)
 {
 
-  .row.mobile-row {
+  .col-lg-1
+  {
+  flex-grow: 0;
+  margin: 0 10px 0 10px;
+  padding: 0;
+
+  }
+  .container-fluid
+  {
+    padding: 0;
+
+  }
+
+.scale
+{
+  transform: scale(0.7, 0.7);
+}
+.bottom-img
+{
+  display: none;
+}
+  .mobile-row {
       padding-bottom: 0;
       margin-left: auto;
       margin-right: auto;
       width: 80%;
     }
+    .row
+    {
+      padding: 0;
+    }
 
-    .text-button {
-    margin: 0 0px;
+
+  .text-button {
+    font-size: 0.8em;
     text-align: center;
-  }
+    margin: 0 5px 0 5px;
+  transform: translateY(10px);
 
+
+  }
 
   .top-img
   {
