@@ -23,7 +23,7 @@ z-index: 0;
 .bottom-img
 {
   position: absolute;
-  top: 500px;
+  top: 550px;
   left:0;
   z-index: 6;
 }
@@ -39,7 +39,9 @@ z-index: 0;
 
 .onoffswitch {
     position: relative; width: 77px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
 
 }
 .onoffswitch-checkbox {
@@ -66,7 +68,7 @@ background-image: linear-gradient(to right, rgba(163,168,240,1) 0%, rgba(105,111
 }
 .onoffswitch-label:before {
     content: "";
-    display: block; width: 36px; margin: 0px;
+    display: block; width: 36px; margin: 0;
     background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
     right: 39px;
@@ -86,7 +88,7 @@ background-image: linear-gradient(to right, rgba(163,168,240,1) 0%, rgba(105,111
    border-color:  #808FFF;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-    right: 0px;
+    right: 0;
 }
 
 /* end toogle button */
@@ -180,9 +182,10 @@ box-shadow: 16px 5px 58px -42px rgba(0,0,0,0.75);
 {
   display: none;
 }
+
 .visible
 {
-  display: run-in;
+  display: inline;;
 }
 
 .price, .monthly
@@ -263,4 +266,4 @@ color: #566573;
 
 
 .attribution { font-size: 11px; text-align: center; padding-top: 30px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: #3e52a3; }
