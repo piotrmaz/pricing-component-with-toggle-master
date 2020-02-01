@@ -28,13 +28,6 @@ z-index: 0;
   z-index: 6;
 }
 
-.top-elem
-{
-  margin: 0;
-  padding: 0;
-  position: relative;
-  z-index: 4;
-}
 /* toogle button */
 
 .onoffswitch {
@@ -274,6 +267,19 @@ color: #566573;
 
 @media screen and (max-width: 991px)
 {
+
+  .row.mobile-row {
+      padding-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    .text-button {
+    margin: 0 0px;
+    text-align: center;
+  }
+
 
   .top-img
   {
